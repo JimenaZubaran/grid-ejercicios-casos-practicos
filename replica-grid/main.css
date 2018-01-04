@@ -1,0 +1,71 @@
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  background-color: yellow;
+  margin: 0 auto;
+}
+
+.row:before
+.row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+
+
+[class*="col-"]{
+  float: left;
+  margin-left: 1%;
+
+}
+
+.colors{
+  min-height: 60px;
+}
+
+.col-1 {
+  width: 7.33%;
+  /* with: calc (8.33% - 20px que seria el gutter) tambien se puede usar esta opcion para el ancho de las filas con gutter en lugar de colocar margin left*/
+  background-color: #E1FF00;
+}
+
+.col-2 {
+  width: 15.66%;
+  background-color: #AFFF00;
+}
+
+.col-3 {
+  width: 24%;
+  background-color: #D126A9;
+}
+
+.col-4 {
+  width: 32.33%;
+  background-color: #01B6AD;
+}
+
+.col-5 {
+  width: 40.66%;
+  background-color: #9C42D1;
+}
+
+.col-6 {
+  width: 49%;
+  background-color: #9C42D1;
+}
+
+.col-12{
+  width: 99%;
+  background-color: #FFF;
+  min-height: 20px;
+}
+
+.doce{
+  background-color: #D126A9;
+  min-height: 60px;
+}
